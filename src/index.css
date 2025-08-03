@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Outfit:wght@100..900&family=Prata&display=swap');
+@import "tailwindcss";
+*{
+    font-family: Outfit;
+}
+.gradient {
+  background-image: linear-gradient(to top, rgba(79, 70, 229, 0.9), rgba(139, 92, 246, 0.9)), url('./assets/bgimg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.navbar{
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
