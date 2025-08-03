@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 export const Navbar = () => {
   const [sidemenu, setSideMenu] = useState(false);
   return (
-    <div className="navbar">
+    <div>
       {/* Main navbar */}
       <div className=" text-center font-medium ">
         <div className=" flex justify-between items-center py-4 px-4 gap-6">

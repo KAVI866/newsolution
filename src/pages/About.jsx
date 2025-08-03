@@ -8,6 +8,7 @@ import {
   FaArrowRight,
 } from "react-icons/fa";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 export const About = () => {
   const values = [
@@ -80,12 +81,12 @@ export const About = () => {
             experiences. We work with startups and enterprises to turn complex
             ideas into simple, powerful digital solutions.
           </p>
-          <a
-            href="#contact"
+          <Link
+            to='/contact'
             className="inline-flex items-center gap-2 px-6 py-3 bg-white text-indigo-700 font-semibold rounded-full hover:bg-indigo-100 transition duration-300"
           >
             Let's Talk <FaArrowRight />
-          </a>
+          </Link>
         </div>
       </section>
 

@@ -35,7 +35,7 @@ export const Home = () => {
               Let's Talk About Your Project
             </Link>
             <Link
-              to="/services"
+              to="/service"
               className="bg-transparent border border-white px-6 py-2 rounded-md hover:bg-white hover:text-indigo-600 transition"
             >
               Explore Our Services
