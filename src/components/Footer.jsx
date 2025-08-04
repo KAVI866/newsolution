@@ -6,12 +6,12 @@ export const Footer = () => {
     <footer className="bg-gray-900 text-white py-10 px-6 mt-12">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
         <div>
-          <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-          <ul className="space-y-2">
-            <NavLink to="/about" className="hover:text-gradientEnd">About</NavLink>
+          <h3 className="text-lg font-semibold mb-4 ">Quick Links</h3>
+          <ul className="space-y-2 flex gap-4">
             <NavLink to="/" className="hover:text-gradientEnd">Home</NavLink>
+            <NavLink to="/about" className="hover:text-gradientEnd">About</NavLink>
+            <NavLink to="/service" className="hover:text-gradientEnd">Service</NavLink>
             <NavLink to="/contact" className="hover:text-gradientEnd">Contact</NavLink>
-            <NavLink to="/services" className="hover:text-gradientEnd">Services</NavLink>
           </ul>
         </div>
 
