@@ -1,6 +1,6 @@
 import React from "react";
 import { assets } from "../assets/assets.js";
-
+import{NavlLink} from "react-router-dom";
 export const Service = () => {
   const services = [
     {
@@ -108,12 +108,12 @@ export const Service = () => {
         <p className="text-gray-600 mb-6">
           Tell us your problem—we’ll help you plan the right solution.
         </p>
-        <a
-          href="/contact"
+        <NavLink
+          to="/contact"
           className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-md"
         >
           Start Your Project
-        </a>
+        </NavLink>
       </div>
     </div>
   );
